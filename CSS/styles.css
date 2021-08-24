@@ -250,3 +250,45 @@ body {
     }
 
 }
+
+@media only screen and (max-width: 300px) {
+
+    #home-section {
+       background-image: url(images/shutterstock_image.jpg);
+       background-repeat: no-repeat;
+       background-size: cover; 
+    }
+
+    #top-nav {
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        z-index: 999;
+        position: fixed;
+        background-color: rgba(8, 12, 17, 0.8);
+    }
+
+    #links {
+        margin: 60vh 15vw;
+        display: flex;
+        justify-content: space-between;
+        width: 70vw;
+    }
+
+    #link-item {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    #comments {
+        width: 78vw;
+    }
+
+    #submit-btn {
+        margin-left: 38%;
+        margin-bottom: 2vh;
+    }
+}
+
+
