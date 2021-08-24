@@ -194,3 +194,59 @@ body {
     color: blanchedalmond;
 }
 
+
+
+
+@media only screen and (max-width: 700px) {
+
+    #home-section {
+        height: max-content;
+    }
+
+    #links {
+        margin: 16vh 25vw;
+        display: flex;
+        justify-content: space-between;
+        width: 50vw;
+    }
+
+    #top-nav {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        z-index: 999;
+        position: fixed;
+        background-color: rgba(8, 12, 17, 0.8);
+    }
+
+    #projects-section {
+        height: max-content;
+    }
+
+    #projects-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #project-item {
+        margin-bottom: 5vh;
+    }
+
+    #project-item:focus {
+        background-color: #454970;
+    }
+
+    #contact-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5vh 5vw;
+        height: max-content;
+    }
+
+    #map, #form {
+        width: 90vw;
+    }
+
+}
